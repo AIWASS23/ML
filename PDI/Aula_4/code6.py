@@ -29,10 +29,10 @@ def show_features(feature_maps):
 data_train , label_train , data_val , label_val, data_test , label_test = load_sign_language_data()
 
 #Carregando modelo salvo em diretório
-model = ___('___.h5')
+model = load_model('PDI/Aula_4/aula4_code5_models.h5')
 
 #obtendo filtros de pesos e bias da primeira cada
-filters, biases = model.___[__].get_weights()
+filters, biases = model.layers[0].get_weights()
 
 #normalização dos valores dos filtros para poder visualizar em forma e imagem
 f_min, f_max = filters.min(), filters.max()
@@ -43,16 +43,16 @@ n_filters, ix = 6, 1
 plot_filter(n_filters,ix,filters)
 
 #inicialização do modelo com saída na ultima camada convolucional
-model = Model(inputs=model.inputs, outputs=model.____[__].output)
+model = Model(inputs=model.inputs, outputs=model.layers[7].output)
 
 #extraindo atributos com predict
-features = model.predict(____)
+features = model.predict(data_test)
 
 #separando em feature_maps somente uma imagem do dataset
-feature_maps = _____
+feature_maps = features[9]
 
 #exibindo imagem original
-show_image(____)
+show_image(data_test[9])
 
 #exibindo imagem com extração de atributos
-show_features(____)
+show_features(feature_maps)
