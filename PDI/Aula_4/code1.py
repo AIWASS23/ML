@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # carregando as inforções do dataset
 label_train ,info_list = load_sign_language_data(dataset_downsample=___, load_info_only=True)
 
+
 # criando uma dataframe
 df = pd.DataFrame(label_train)
 
