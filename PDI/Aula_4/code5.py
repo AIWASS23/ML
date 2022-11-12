@@ -77,10 +77,19 @@ for cnn in  range(len(conv_node)):
     model_name = "{}-block-{}-convNOde".format(cnn,conv_node[:cnn])
 
     #definição dos callbacks
-    tensorboard,mcp_save,earlyStopping,reduce_lr_loss = callbacks(___)
+    tensorboard,mcp_save,earlyStopping,reduce_lr_loss = callbacks(model_name)
 
     #salvando sumario dos modelos
-    save_sumary(___)
+    save_sumary(model_name)
 
     #treinando modelo
-    ____
+    model.fit(
+        data_train,
+        label_train,
+        validation_data = (data_val, label_val),
+        epochs = 5,
+        callbacks = [
+            tensorboard,
+            mcp_save,
+            earlyStopping,
+            reduce_lr_loss])
