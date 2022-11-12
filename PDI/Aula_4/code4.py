@@ -8,41 +8,42 @@ from PDI.src.pdi_utils import load_sign_language_data
 #carregando informações do modelo
 data_train , label_train , data_val , label_val, _ , _  = load_sign_language_data()
 
-#inicialização de um modelo sequencial do keras
-___
+#inicialização do modelo sequencial do keras
+model =keras.Sequential()
 
-#adição da camada convolucional 2D
-___
+#adição de camada convolucional 2D
+model.add(Conv2D(16, kernel_size=(5, 5), activation= 'relu',input_shape=data_train.shape[1:],padding='same'))
 
-#adição da camada de redução maxpooling2D
-__
+#adição da camada de redução maxpooling
+model.add(MaxPooling2D(pool_size=(2,2),padding='same'))
 
-#transformação dos dados em 1 dimensão
-__
+#transoformação dos dados em 1 dimensão
+model.add(Flatten())
 
 #adição da camada densa
-___
+model.add(Dense(29, activation = 'softmax'))
 
-#compilaçao do modelo
-___
+#compilação do modelo
+model.compile(loss='sparse_categorical_crossentropy', optimizer='adam',metrics=['sparse_categorical_accuracy'])
 
 
 #definição do nome do modelo
-model_name = "__"
+model_name = 'PDI
 
 #definição do arquivo salvo do modelo
-model_file = model_name+'.h5'
+model_file = model_name + '.h5'
 
 #callback para usar tensorboard
-tensorboard = __(log_dir="logs/{}".format(___))
+tensorboard = TensorBoard(log_dir="logs/{}".format(model_file))
 
 #callback para salvar o modelo
-mcp_save= __
+mcp_save= ModelCheckpoint(model_file, save_best_only = True, monitor = 'val_loss', mode = 'min')
+
 #callback para interromper o treinamento quando não houver mais aprendizado
-earlyStopping= __
+earlyStopping= EarlyStopping(monitor = 'val_loss', patience = 5, verbose = 1, mode = 'min')
 
 #callback para reduzira a taxa de aprendizagem do modelo
-reduce_lr_loss =__
+reduce_lr_loss = ReduceLROnPlateau(monitor = 'val_loss', factor = 0.05, patience = 5, verbose = 1, min_delta = 1e-4, mode = 'min')
 
 #treinamento do modelo
-____
+model.fit(data_train, label_train, validation_data = (data_val, label_val), epochs = 50, callbacks = [mcp_save, earlyStopping, reduce_lr_loss, tensorboard])
