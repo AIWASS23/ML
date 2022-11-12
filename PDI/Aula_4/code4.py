@@ -28,7 +28,7 @@ model.compile(loss='sparse_categorical_crossentropy', optimizer='adam',metrics=[
 
 
 #definição do nome do modelo
-model_name = 'PDI/Aula_4'
+model_name = 'PDI/Aula_4/aula4_code4_models'
 
 #definição do arquivo salvo do modelo
 model_file = model_name + '.h5'
