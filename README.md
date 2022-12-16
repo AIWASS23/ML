@@ -2,33 +2,6 @@
 
 Atividades do Bootcamp de Machine Learning ministrado pelo professor Alysson Bezerra
 
-## 🚀 Começando
-
-
-### 📋 Pré-requisitos
-
-
-
-### 🔧 Instalação
-
-
-
-## ⚙️ Executando os testes
-
-
-
-### 🔩 Analise os testes de ponta a ponta
-
-
-
-### ⌨️ E testes de estilo de codificação
-
-
-
-## 📦 Implantação
-
-
-
 ## 🛠️ Construído com
 
 [Duck Duck Go](https://duckduckgo.com)
@@ -51,10 +24,9 @@ Veja o arquivo [CONTRIBUTING.md](https://github.com/AIWASS23/ML/blob/main/CONTRI
 
 * **Marcelo De Araújo** - *Trabalho Inicial* - [Marcelo De Araújo](https://github.com/AIWASS23)
 
-
 ## 📄 Licença
 
-Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/AIWASS23/ML/blob/main/LICENSE) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
