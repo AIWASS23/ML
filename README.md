@@ -31,18 +31,21 @@ Atividades do Bootcamp de Machine Learning ministrado pelo professor Alysson Bez
 
 ## 🛠️ Construído com
 
-Colab<br>
-Virtual Studio Code<br>
-Pycharm<br>
-Repl.it<br>
+[Duck Duck Go](https://duckduckgo.com)
+[Colab](https://colab.research.google.com)
+[Virtual Studio Code](https://code.visualstudio.com)
+[Pycharm](https://www.jetbrains.com/pycharm/)
+[Repl.it](https://replit.com)
 
 ## 🖇️ Colaborando
 
-
+Veja o arquivo [CONTRIBUTING.md](https://github.com/AIWASS23/ML/blob/main/CONTRIBUTING.md) para detalhes.
 
 ## 📌 Versão
 
-
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1     | :white_check_mark: |
 
 ## ✒️ Autores
 
@@ -51,7 +54,7 @@ Repl.it<br>
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
