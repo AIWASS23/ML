@@ -4,11 +4,11 @@ Atividades do Bootcamp de Machine Learning ministrado pelo professor Alysson Bez
 
 ## 🛠️ Construído com
 
-[Duck Duck Go](https://duckduckgo.com)
-[Colab](https://colab.research.google.com)
-[Virtual Studio Code](https://code.visualstudio.com)
-[Pycharm](https://www.jetbrains.com/pycharm/)
-[Repl.it](https://replit.com)
+[Duck Duck Go](https://duckduckgo.com) <br>
+[Colab](https://colab.research.google.com) <br>
+[Virtual Studio Code](https://code.visualstudio.com) <br>
+[Pycharm](https://www.jetbrains.com/pycharm/) <br>
+[Repl.it](https://replit.com) <br>
 
 ## 🖇️ Colaborando
 
