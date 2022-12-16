@@ -9,4 +9,5 @@
 
 ## Reporting a Vulnerability
 
-### Contact [Marcelo De Araújo]<marceloaiwass666@gmail.com>
+### Contact 
+<marceloaiwass666@gmail.com>
