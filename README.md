@@ -31,10 +31,10 @@ Atividades do Bootcamp de Machine Learning ministrado pelo professor Alysson Bez
 
 ## 🛠️ Construído com
 
-Colab
-Virtual Studio Code
-Pycharm
-Repl.it
+Colab<br>
+Virtual Studio Code<br>
+Pycharm<br>
+Repl.it<br>
 
 ## 🖇️ Colaborando
 
