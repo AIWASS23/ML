@@ -16,7 +16,7 @@ df.isnull().sum()
 df.describe()
 
 # gerando gráfico de renda anual versus score do cliente
-plt.scatter(df['Annual Income (k$)'], df['Spending Score (1-100)'], marker='.')
+plt.scatter(df['Annual Income (k$)'], df['Spending Score (1-100)'], marker = '.')
 plt.xlabel('Renda Anual [k$]')
 plt.ylabel('Score (1-100)')
 plt.show()
@@ -29,7 +29,7 @@ X.head()
 from sklearn.cluster import KMeans
 
 # clusterizando com k = 5
-modelo_kmeans = KMeans(n_clusters= 5, init='k-means++')
+modelo_kmeans = KMeans(n_clusters = 5, init = 'k-means++')
 
 y_kmeans= modelo_kmeans.fit_predict(X)
 
@@ -43,8 +43,12 @@ k_grupos = 5
 cores = ['r', 'b', 'k', 'y', 'g']
 for k in range(k_grupos):
     cluster = X[y_kmeans == k]
-    plt.scatter(cluster['Annual Income (k$)'], cluster['Spending Score (1-100)'],
-                s = 100, c = cores[k], label = f'Cluster {k}')
+    plt.scatter(
+        cluster['Annual Income (k$)'], 
+        cluster['Spending Score (1-100)'],
+        s = 100, 
+        c = cores[k], 
+        label = f'Cluster {k}')
 
 
 plt.title('Grupos de clientes')
