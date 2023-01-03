@@ -14,6 +14,10 @@ Atividades do Bootcamp de Machine Learning ministrado pelo professor Alysson Bez
 
 Veja o arquivo [CONTRIBUTING.md](https://github.com/AIWASS23/ML/blob/main/CONTRIBUTING.md) para detalhes.
 
+## 🔍 Material
+
+Veja o arquivo [TUTORIAIS.md](https://github.com/AIWASS23/ML/blob/main/TUTORIAIS.md) para detalhes.
+
 ## 📌 Versão
 
 | Version | Supported          |
