@@ -1,6 +1,6 @@
 # Machile Learning
 
-Atividades do Bootcamp de Machine Learning ministrado pelo professor Alysson Bezerra
+Atividades de estudo
 
 ## 🛠️ Construído com
 
