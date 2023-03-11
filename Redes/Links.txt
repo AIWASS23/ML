@@ -1,0 +1,66 @@
+Base de dados
+http://www.cvedetails.com/
+
+Sistema de alertas
+https://www.honeynet.org/node/960
+
+Partilha de Cibersegurança
+https://www.infragard.org/
+
+Normas ISM 
+http://www.27000.org/
+
+ISACA 
+https://www.isaca.org/pages/cybersecurity-global-status-report.aspx
+
+Competições em Cibersegurança
+https://www.uscyberpatriot.org
+https://www.skillsusa.org
+https://www.uscyberchallenge.org
+https://nationalcyberleague.org
+
+Spam 
+https://www.onguardonline.gov/articles/0038-spam
+
+Phishing, Smishing, Vishing e Whaling
+https://www.rsa.com/content/dam/rsa/PDF/h11933-wp-phishing-vishing-smishing.pdf
+
+AUP 
+http://www.snopes.com/
+
+conscientização sobre cibersegurança
+https://niccs.us-cert.gov/awareness/protect-yourself-against-cyber-threats
+
+Encriptação
+http://des.online-domain-tools.com
+https://calculareconverter.com.br/cifra-de-vigenere-tradutor/
+
+Senhas
+https://howsecureismypassword.net/
+http://strongpasswordgenerator.com/
+
+Hash
+http://easyonlineconverter.com/converters/checksum_converter.html
+https://blogs.technet.microsoft.com/srd/2012/06/06/flame-malware-collision-attack-explained/
+
+Assinatura Digital 
+https://www.youtube.com/watch?v=E5FEqGYLL0o
+
+NetFlow
+http://video.cisco.com/detail/videos/products/video/2534277650001/cybersecurity-enabled-by-flexible-netflow-in-campus-access
+
+Triagem 
+https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers
+
+Segurança
+http://www.chainlinkinfo.org/security-fencing-guidelines/
+https://nvd.nist.gov/home.cfm
+https://scap.nist.gov/
+https://web.nvd.nist.gov/view/ncp/repository
+http://www.cert.org/
+https://isc.sans.edu/
+http://www.acscenter.org/
+http://sectools.org/tag/vuln-scanners/
+https://en.wikipedia.org/wiki/Comparison_of_packet_analyzers
+https://www.kali.org/
+http://www.cert.org/netsa/tools/index.cfm
